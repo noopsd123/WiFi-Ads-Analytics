@@ -25,52 +25,45 @@ By modeling the venue as a network of connected zones, we capture not just *wher
 
 ## Visual Insights
 
+<img width="1780" height="484" alt="image" src="https://github.com/user-attachments/assets/876470fa-aa48-4cbf-9da1-5c89f80c11c9" />
+
 ### 1. Venue Zone Map — Premium Placement Candidates
 Zones are plotted at their physical (x, y) coordinates. Highlighted (orange rings) are the top premium placement candidates identified by the PSS model. Central corridor zones (COR_1, COR_2, COR_3) sit on the main circulation spine and capture the highest throughflow. Gallery zones (GALL_1, GALL_2) and the Food Court sit off the spine but score well on dwell and repeat metrics.
 
-![Venue Zone Map](visuals/venue_zone_map.png)
-
----
 
 ### 2. Footfall by Zone
 The Entrance leads with ~395 sessions, followed by Transit Hub (~360) and Food Court (~340). However, raw footfall is a misleading proxy for ad value — the Lounge sits near the bottom at ~205 sessions yet ranks 2nd in PSS due to its dwell time and repeat rate.
 
-![Footfall by Zone](visuals/footfall_by_zone.png)
-
----
 
 ### 3. Average Dwell Time by Zone
 The Lounge (~29 min) and Food Court (~24 min) dominate dwell time. The Entrance and Exit average under 3 minutes — visitors are purely in transit and unlikely to engage with any ad content.
 
-![Average Dwell Time by Zone](visuals/dwell_time_by_zone.png)
-
----
 
 ### 4. Repeat Visitor Rate by Zone
 Food Court leads at ~60% repeat rate, followed by Transit Hub (~51%) and Lounge (~50%). The Entrance has only a ~33% repeat rate despite its volume, and the Exit drops to ~9%, making both poor candidates for frequency-based brand campaigns.
-
-![Repeat Visitor Rate by Zone](visuals/repeat_visitor_rate.png)
 
 ---
 
 ### 5. Hourly Traffic Heatmap
 Traffic peaks differ sharply by zone. The Entrance spikes at hour 13 (1 PM). Transit Hub peaks at hours 13–15. Food Court and Retail Zone A show strong mid-morning (10 AM) surges alongside afternoon peaks. The Lounge has the most even distribution — ideal for always-on brand awareness campaigns.
 
-![Hourly Traffic Heatmap by Zone](visuals/hourly_heatmap.png)
+<img width="1260" height="584" alt="image" src="https://github.com/user-attachments/assets/47c8c740-62fb-44f0-9732-9f84c2148ad9" />
+
 
 ---
 
 ### 6. Premium Space Score (PSS) by Zone
 Food Court ranks first (0.855), driven by the combination of high footfall, long dwell time, and the highest repeat rate. Lounge ranks second (0.693) on the strength of dwell time alone. The Entrance ranks 5th (0.482) despite being the busiest zone. The Exit scores 0.000 — no premium placement is recommended there.
 
-![Premium Space Score by Zone](visuals/premium_space_score.png)
+<img width="984" height="484" alt="image" src="https://github.com/user-attachments/assets/0be6834e-e2a6-4a88-ad31-6fa3a7bb065e" />
+
 
 ---
 
 ### 7. Zone Transition Flow Matrix
 The Entrance is the dominant origin — 48 self-transitions (repeat passes), 41 to Transit Hub, and 35 to Retail Zone A. Food Court and Transit Hub show strong self-loops (32 and 33 respectively), confirming habitual return behavior. The primary circulation spine runs: **Entrance → Transit Hub → Food Court**, forming the highest-value sequential ad placement path.
 
-![Zone Transition Flow Matrix](visuals/zone_transition_matrix.png)
+<img width="1023" height="784" alt="image" src="https://github.com/user-attachments/assets/a0ce3587-0661-4428-9dd4-535a024350cb" />
 
 ---
 
@@ -157,14 +150,5 @@ PSS = 0.35 × norm_reach + 0.30 × norm_dwell + 0.25 × norm_throughflow + 0.10 
 - **Limitation:** Simulated data reflects realistic behavioral patterns but is not sourced from a live venue — real-world results may vary by venue type, size, and layout
 
 ---
-
-## About This Project
-
-Built as part of a data analytics portfolio following the READY Framework:
-- Representative data with realistic messiness and volume (irregular pings, sparse sessions, null gaps)
-- Exec-driven questions — not just metric aggregation, but defensible placement decisions
-- Analytical frameworks — graph modeling, session reconstruction, weighted scoring
-- Data best practices — normalized scoring, dwell cap, privacy-first design
-- Your insights and impact — actionable recommendations for media buyers and venue operators
 
 Inspired by: [Finding the Perfect Spot — WiFi Analytics for Premium Space Advertising](https://medium.com/data-science-collective/finding-the-perfect-spot-wifi-analytics-for-premium-space-advertising-b8470dd9181b) by Herman Wandabwa
