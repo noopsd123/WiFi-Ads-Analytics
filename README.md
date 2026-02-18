@@ -151,4 +151,7 @@ PSS = 0.35 × norm_reach + 0.30 × norm_dwell + 0.25 × norm_throughflow + 0.10 
 
 ---
 
+## Technical Note
+All data is simulated for educational purposes. Real deployments require proper WiFi infrastructure, privacy compliance, and ground-truth validation.
+---
 Inspired by: [Finding the Perfect Spot — WiFi Analytics for Premium Space Advertising](https://medium.com/data-science-collective/finding-the-perfect-spot-wifi-analytics-for-premium-space-advertising-b8470dd9181b) by Herman Wandabwa
