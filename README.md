@@ -63,7 +63,7 @@ Food Court ranks first (0.855), driven by the combination of high footfall, long
 ### 7. Zone Transition Flow Matrix
 The Entrance is the dominant origin — 48 self-transitions (repeat passes), 41 to Transit Hub, and 35 to Retail Zone A. Food Court and Transit Hub show strong self-loops (32 and 33 respectively), confirming habitual return behavior. The primary circulation spine runs: **Entrance → Transit Hub → Food Court**, forming the highest-value sequential ad placement path.
 
-<img width="1023" height="784" alt="image" src="https://github.com/user-attachments/assets/a0ce3587-0661-4428-9dd4-535a024350cb" />
+<img width="511.5" height="392" alt="image" src="https://github.com/user-attachments/assets/a0ce3587-0661-4428-9dd4-535a024350cb" />
 
 ---
 
