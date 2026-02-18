@@ -25,7 +25,7 @@ By modeling the venue as a network of connected zones, we capture not just *wher
 
 ## Visual Insights
 
-<img width="1780" height="484" alt="image" src="https://github.com/user-attachments/assets/876470fa-aa48-4cbf-9da1-5c89f80c11c9" />
+<img width="890" height="242" alt="image" src="https://github.com/user-attachments/assets/876470fa-aa48-4cbf-9da1-5c89f80c11c9" />
 
 ### 1. Venue Zone Map — Premium Placement Candidates
 Zones are plotted at their physical (x, y) coordinates. Highlighted (orange rings) are the top premium placement candidates identified by the PSS model. Central corridor zones (COR_1, COR_2, COR_3) sit on the main circulation spine and capture the highest throughflow. Gallery zones (GALL_1, GALL_2) and the Food Court sit off the spine but score well on dwell and repeat metrics.
@@ -47,7 +47,7 @@ Food Court leads at ~60% repeat rate, followed by Transit Hub (~51%) and Lounge 
 ### 5. Hourly Traffic Heatmap
 Traffic peaks differ sharply by zone. The Entrance spikes at hour 13 (1 PM). Transit Hub peaks at hours 13–15. Food Court and Retail Zone A show strong mid-morning (10 AM) surges alongside afternoon peaks. The Lounge has the most even distribution — ideal for always-on brand awareness campaigns.
 
-<img width="1260" height="584" alt="image" src="https://github.com/user-attachments/assets/47c8c740-62fb-44f0-9732-9f84c2148ad9" />
+<img width="630" height="292" alt="image" src="https://github.com/user-attachments/assets/47c8c740-62fb-44f0-9732-9f84c2148ad9" />
 
 
 ---
@@ -55,7 +55,7 @@ Traffic peaks differ sharply by zone. The Entrance spikes at hour 13 (1 PM). Tra
 ### 6. Premium Space Score (PSS) by Zone
 Food Court ranks first (0.855), driven by the combination of high footfall, long dwell time, and the highest repeat rate. Lounge ranks second (0.693) on the strength of dwell time alone. The Entrance ranks 5th (0.482) despite being the busiest zone. The Exit scores 0.000 — no premium placement is recommended there.
 
-<img width="984" height="484" alt="image" src="https://github.com/user-attachments/assets/0be6834e-e2a6-4a88-ad31-6fa3a7bb065e" />
+<img width="492" height="242" alt="image" src="https://github.com/user-attachments/assets/0be6834e-e2a6-4a88-ad31-6fa3a7bb065e" />
 
 
 ---
