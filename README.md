@@ -23,6 +23,10 @@ By modeling the venue as a network of connected zones, we capture not just *wher
 
 ---
 
+[View Full Analysis Notebook](https://github.com/noopsd123/WiFi-Ads-Analytics/blob/main/Wifi_analytics_premium_advertising.ipynb) 
+
+---
+
 ## Visual Insights
 
 <img width="890" height="242" alt="image" src="https://github.com/user-attachments/assets/876470fa-aa48-4cbf-9da1-5c89f80c11c9" />
@@ -114,8 +118,6 @@ PSS = 0.35 × norm_reach + 0.30 × norm_dwell + 0.25 × norm_throughflow + 0.10 
 ```
 
 **Tools:** Python · Pandas · NumPy · NetworkX · Matplotlib · Seaborn · Jupyter Notebook
-
-[[View Full Analysis Notebook](https://github.com/noopsd123/WiFi-Ads-Analytics/blob/main/Wifi_analytics_premium_advertising.ipynb)
 
 ---
 
