@@ -117,7 +117,8 @@ All metrics are min-max normalized to [0, 1] before applying the weighted PSS fo
 PSS = 0.35 × norm_reach + 0.30 × norm_dwell + 0.25 × norm_throughflow + 0.10 × norm_repeat
 ```
 
-**Tools:** Python · Pandas · NumPy · NetworkX · Matplotlib · Seaborn · Jupyter Notebook
+###Tools:
+**Python · Pandas · NumPy · NetworkX · Matplotlib · Seaborn · Jupyter Notebook**
 
 ---
 
