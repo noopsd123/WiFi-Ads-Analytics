@@ -115,7 +115,7 @@ PSS = 0.35 × norm_reach + 0.30 × norm_dwell + 0.25 × norm_throughflow + 0.10 
 
 **Tools:** Python · Pandas · NumPy · NetworkX · Matplotlib · Seaborn · Jupyter Notebook
 
-[View Full Analysis Notebook](wifi_analytics_premium_advertising.ipynb)
+[[View Full Analysis Notebook](https://github.com/noopsd123/WiFi-Ads-Analytics/blob/main/Wifi_analytics_premium_advertising.ipynb)
 
 ---
 
